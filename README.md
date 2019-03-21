@@ -2,4 +2,4 @@
 instructions on how to train a mask rcnn model on tensorflow
 
 
-<b>step 1</b>
+<b>Step 1</b>

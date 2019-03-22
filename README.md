@@ -1,8 +1,8 @@
 # Train_Mask_RCNN
-Instructions on how to train a Mask-RCNN Model on Tensorflow from scracth
+Instructions on how to train a Mask-RCNN Model on Tensorflow from scratch
 
 
-## PC REQUIREMENTS
+#### <b>PC REQUIREMENTS</b>
 
 
   -Nvidia GPU(with atleat 3.0 of computing power)</br>

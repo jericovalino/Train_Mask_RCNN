@@ -20,8 +20,8 @@ Instructions on how to train a Mask-RCNN Model on Tensorflow from scracth
    -Add the CUDA Toolkit and Library to Windows Environment Variable Path by clicking your way thru the following: 
 > This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
 
-    Then click "NEW" to add each: <br/>
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin <br/>
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp <br/> 
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64 <br/>
-    C:\tools\cuda\bin <br/>
+    Then click "NEW" to add each:
+    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
+    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
+    C:\tools\cuda\bin

@@ -33,10 +33,10 @@ To make it easier to add in the Windows Environment Variables install Python on 
 
 Add Python to Windows Environment Variable Path by clicking your way thru the following: <br/>
 > This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
-
-Then click "NEW" to add each: <br/>
-C:\Python36 <br/>
-C:\Python36\Scripts <br/>
-
+    
+    Then click "NEW" to add each: <br/>
+    C:\Python36 <br/>
+    C:\Python36\Scripts <br/>
+    
 To test Python, open up a CMD console and type: `python --version`. 
   

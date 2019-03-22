@@ -27,9 +27,9 @@ Instructions on how to train a Mask-RCNN Model on Tensorflow from scratch
     C:\tools\cuda\bin
 
 #### 1. Install Python 3.6.8
-Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>
-Note that we need this specific Python release since the version 3.7.x is having issues downloading the tensorflow package! <br/>
-To make it easier to add in the Windows Environment Variables install Python on "C:\Python36\" directory. 
+-Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>
+-Note that we need this specific Python release since the version 3.7.x is having issues downloading the tensorflow package! <br/>
+-To make it easier to add in the Windows Environment Variables install Python on "C:\Python36\" directory. 
 
 Add Python to Windows Environment Variable Path by clicking your way thru the following: <br/>
 > This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
@@ -39,4 +39,18 @@ Add Python to Windows Environment Variable Path by clicking your way thru the fo
     C:\Python36\Scripts
     
 To test Python, open up a CMD console and type: `python --version`. 
-  
+
+#### 2. Creating a Python Virtual Environment
+
+-Install virtualenv by issuing `pip install virtualenv` on cmd. 
+
+-Using a CMD line, go to the C:\ root directory by issuing `cd C:\`. <br/>
+-Create a virtual environment using python by issuing `virtualenv -p python ./Train_Mask_RCNN` <br/>
+    You should see a newly created folder in C:/ named "Train_Mask_RCNN" <br/>
+-Activate the virtual environment by running `./Train_Mask_RCNN/Scripts/activate` <br/>
+-Once activated, you should be able to see the console prompt to have "(Train_Mask_RCNN)"
+
+#### 3. Intalling all the Modules and Packages needed inside the Virtual Environment
+
+In this repository, download "requirements.txt" and place it inside Train_Mask_RCNN folder. <br/>
+

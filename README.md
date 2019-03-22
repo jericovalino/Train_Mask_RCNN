@@ -2,7 +2,7 @@
 Instructions on how to train a Mask-RCNN Model on Tensorflow from scracth
 
 
-##PC REQUIREMENTS
+## PC REQUIREMENTS
 
 
   -Nvidia GPU(with atleat 3.0 of computing power)</br>
@@ -11,13 +11,13 @@ Instructions on how to train a Mask-RCNN Model on Tensorflow from scracth
     Note: if your computer don't have a GPU, you can still be able to train and run on tensorflow but it
     will take almost forever to train a model.
 
-##Preparing Your Workststation<br/>
-  *  -Install VS 2015 C++ Build tools<br/>
-  *  -Download and Install CUDA 9.0<br/>
+## Preparing Your Workststation<br/>
+  *  Install VS 2015 C++ Build tools<br/>
+  *  Download and Install CUDA 9.0<br/>
    for windows 10 x64 machine, you can download the installer named "cuda_9.0.176_win10.exe" (1.4GB) [here](https://developer.nvidia.com/cuda-90-download-archive).<br/>
-  *  -Click [here](https://developer.nvidia.com/rdp/cudnn-archive) and click "Download cuDNN v7.4.1 (Nov 8, 2018), for CUDA 9.0".<br/>
-  *  -After downloading, decompress the .zip file to path "C:\tools".<br/>
-  *  -Add the CUDA Toolkit and Library to Windows Environment Variable Path by clicking your way thru the following: 
+  *  Click [here](https://developer.nvidia.com/rdp/cudnn-archive) and click "Download cuDNN v7.4.1 (Nov 8, 2018), for CUDA 9.0".<br/>
+  *  After downloading, decompress the .zip file to path "C:\tools".<br/>
+  *  Add the CUDA Toolkit and Library to Windows Environment Variable Path by clicking your way thru the following: 
 > This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
 
     Then click "NEW" to add each:
@@ -25,3 +25,18 @@ Instructions on how to train a Mask-RCNN Model on Tensorflow from scracth
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
     C:\tools\cuda\bin
+
+#### 1. Install Python 3.6.8
+Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>
+Note that we need this specific Python release since the version 3.7.x is having issues downloading the tensorflow package! <br/>
+To make it easier to add in the Windows Environment Variables install Python on "C:\Python36\" directory. 
+
+Add Python to Windows Environment Variable Path by clicking your way thru the following: <br/>
+> This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
+
+Then click "NEW" to add each: <br/>
+C:\Python36 <br/>
+C:\Python36\Scripts <br/>
+
+To test Python, open up a CMD console and type: `python --version`. 
+  

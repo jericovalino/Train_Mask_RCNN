@@ -11,7 +11,7 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
     Note: if your computer don't have a GPU, you can still be able to train and run on tensorflow but it
     will take almost forever to train a model.
 
-## Preparing Your Computer<br/>
+#### Preparing Your Computer<br/>
   *  Install VS 2015 C++ Build tools<br/>
   *  Download and Install CUDA 9.0<br/>
    for windows 10 x64 machine, you can download the installer named "cuda_9.0.176_win10.exe" (1.4GB) [here](https://developer.nvidia.com/cuda-90-download-archive).<br/>

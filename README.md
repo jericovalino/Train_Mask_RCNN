@@ -32,6 +32,7 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
 -----------------------------------------------------------------------------------------------------------------
 
 #### Setting Things Up<br/>
+
 #### 1. Install Python 3.6.8
 Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>
 Note that we need this specific Python release since the version 3.7.x is having issues downloading the tensorflow package! <br/>
@@ -80,3 +81,4 @@ Once you have cloned this repository, change your present working directory to m
 
 #### Generating Project Resources<br/>
 
+To be continued.

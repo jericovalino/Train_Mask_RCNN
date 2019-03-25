@@ -75,7 +75,7 @@ Or visit this repository for more details: https://github.com/philferriere/cocoa
 ** Make sure that you have "vs c++ 2015 build tool" already installed on your computer otherwise you'll get an error while cloning.
   <br/>
   <br/>
-
+  <br/>
 
 -----------------------------------------------------------------------------------------------------------------
 

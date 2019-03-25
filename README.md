@@ -59,7 +59,7 @@ Install the requirements by entering `(Train_Mask_RCNN) c:\Train_Mask_RCNN>pip i
 Install COCO API(Clone).<br/>
 Use pip to install the package: <br/>
 `(Train_Mask_RCNN) c:\Train_Mask_RCNN>pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI` <br/>
-Or visit this repository for more details: https://github.com/philferriere/cocoapi <br/>
+Or visit this repository for more details: https://github.com/philferriere/cocoapi 
 
     Note: Make sure that you have "vs c++ 2015 build tool" already installed on your machine otherwise you'll get an error while cloning.
 

@@ -78,7 +78,7 @@ Or visit this repository for more details: https://github.com/philferriere/cocoa
 #### 1. Setup Tensorflow Models Repository
 
 Now it's time when we will start using Tensorflow object detection API so go ahead and clone it by issuing the following command. <br/>
-`(Train_Mask_RCNN) c:\Train_Mask_RCNN>git clone https://github.com/tensorflow/models.git` <br/>
+(Train_Mask_RCNN) c:\Train_Mask_RCNN>`git clone https://github.com/tensorflow/models.git` <br/>
 Once you have cloned this repository, change your present working directory to models/research/ and add it to your python path. If you want to add it permanently then you will have to make the change in your .bashrc file or you could add it temporarily for current session using the following command: <br/>
 
 `(Train_Mask_RCNN) c:\Train_Mask_RCNN\models\research>set PYTHONPATH=C:\Train_Mask_RCNN\models;C:\Train_Mask_RCNN\models\research;C:\Train_Mask_RCNN\models\research\slim;`

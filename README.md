@@ -1,5 +1,5 @@
 # Train_Mask_RCNN
-Instructions on how to train a Mask-RCNN Model on Tensorflow from scratch
+A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scratch
 
 
 #### <b>PC REQUIREMENTS</b>

@@ -31,6 +31,9 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
    
   *  Download Pixel Annotation Tool [here](https://github.com/abreheret/PixelAnnotationTool). <br/>
   *  Download LabelImg [here](https://tzutalin.github.io/labelImg/).
+  
+  
+  
 -----------------------------------------------------------------------------------------------------------------
 
 #### #Setting Things Up<br/>
@@ -70,6 +73,8 @@ Use pip to install the package: <br/>
 (Train_Mask_RCNN) c:\Train_Mask_RCNN>`pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI` <br/>
 Or visit this repository for more details: https://github.com/philferriere/cocoapi <br/> 
 ** Make sure that you have "vs c++ 2015 build tool" already installed on your computer otherwise you'll get an error while cloning.
+
+
 
 -----------------------------------------------------------------------------------------------------------------
 

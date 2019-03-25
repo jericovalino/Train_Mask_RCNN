@@ -29,6 +29,8 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
     C:\tools\cuda\bin
    
+  *  Download Pixel Annotation Tool [here](https://github.com/abreheret/PixelAnnotationTool). <br/>
+  *  Download LabelImg [here](https://tzutalin.github.io/labelImg/).
 -----------------------------------------------------------------------------------------------------------------
 
 #### #Setting Things Up<br/>

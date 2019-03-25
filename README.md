@@ -42,7 +42,7 @@ To test Python, open up a CMD console and type: `python --version`.
 
 #### 2. Creating a Python Virtual Environment
 
--Install virtualenv by issuing `pip install virtualenv` on cmd. 
+Install virtualenv by issuing `pip install virtualenv` on cmd. 
 
 Using a CMD line, go to the C:\ root directory by issuing `cd C:\` <br/>
 Create a virtual environment using python by issuing `virtualenv -p python ./Train_Mask_RCNN` <br/>

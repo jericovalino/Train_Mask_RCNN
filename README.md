@@ -53,16 +53,16 @@ To test Python, open up a CMD console and type: `python --version`.
 
 Install virtualenv by issuing `pip install virtualenv` on cmd. 
 
-Using a CMD line, go to the C:\ root directory by issuing `cd c:\` <br/>
+Using a CMD line, go to the c:\ root directory by issuing `cd c:\` <br/>
 Create a virtual environment using python by issuing c:\\>`virtualenv -p python ./Train_Mask_RCNN` <br/>
-You should see a newly created folder in C:\ named "Train_Mask_RCNN" <br/>
+You should see a newly created folder in c:\ named "Train_Mask_RCNN" <br/>
 Activate the virtual environment by issuing c:\\>`/Train_Mask_RCNN/Scripts/activate` <br/>
 Once activated, you should be able to see the console prompt to have "(Train_Mask_RCNN)".
 
 #### 3. Installing all the Modules and Packages needed inside the Virtual Environment
 
 In this repository, download "requirements.txt" and place it inside Train_Mask_RCNN folder. <br/>
-Using a CMD line, go to the "C:\Train_Mask_RCNN" directory by issuing (Train_Mask_RCNN) c:\\>`cd Train_Mask_RCNN` <br/>
+Using a CMD line, go to the "c:\Train_Mask_RCNN" directory by issuing (Train_Mask_RCNN) c:\\>`cd Train_Mask_RCNN` <br/>
 Install the requirements by entering (Train_Mask_RCNN) c:\Train_Mask_RCNN>`pip install -r requirements.txt` <br/>
 
 Install COCO API(Clone).<br/>

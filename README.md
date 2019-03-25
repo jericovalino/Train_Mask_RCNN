@@ -50,7 +50,7 @@ You should see a newly created folder in C:/ named "Train_Mask_RCNN" <br/>
 Activate the virtual environment by running `/Train_Mask_RCNN/Scripts/activate` <br/>
 Once activated, you should be able to see the console prompt to have "(Train_Mask_RCNN)".
 
-#### 3. Intalling all the Modules and Packages needed inside the Virtual Environment
+#### 3. Installing all the Modules and Packages needed inside the Virtual Environment
 
 In this repository, download "requirements.txt" and place it inside Train_Mask_RCNN folder. <br/>
 Using a CMD line, go to the C:\Train_Mask_RCNN directory by issuing `cd C:\Train_Mask_RCNN` <br/>

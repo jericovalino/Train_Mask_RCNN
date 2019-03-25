@@ -11,7 +11,7 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
     Note: if your computer don't have a GPU, you can still be able to train and run on tensorflow but it
     will take almost forever to train a model.
 
-#### Preparing Your Computer<br/>
+
   *  Download and Install Git from [here](https://git-scm.com/downloads).
   *  Install VS 2015 C++ Build tools.<br/>
   *  Download and Install CUDA 9.0<br/>
@@ -29,7 +29,9 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
     C:\tools\cuda\bin
    
+-----------------------------------------------------------------------------------------------------------------
 
+#### Setting Things Up<br/>
 #### 1. Install Python 3.6.8
 Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>
 Note that we need this specific Python release since the version 3.7.x is having issues downloading the tensorflow package! <br/>
@@ -74,5 +76,7 @@ Once you have cloned this repository, change your present working directory to m
 
 `(Train_Mask_RCNN) c:\Train_Mask_RCNN\models\research>set PYTHONPATH=C:\Train_Mask_RCNN\models;C:\Train_Mask_RCNN\models\research;C:\Train_Mask_RCNN\models\research\slim;`
 
+-----------------------------------------------------------------------------------------------------------------
 
+#### Generating Project Resources<br/>
 

@@ -62,7 +62,7 @@ Once activated, you should be able to see the console prompt to have "(Train_Mas
 #### 3. Installing all the Modules and Packages needed inside the Virtual Environment
 
 In this repository, download "requirements.txt" and place it inside Train_Mask_RCNN folder. <br/>
-Using a CMD line, go to the Train_Mask_RCNN directory by issuing (Train_Mask_RCNN) c:\\>`cd Train_Mask_RCNN` <br/>
+Using a CMD line, go to \Train_Mask_RCNN directory by issuing (Train_Mask_RCNN) c:\\>`cd Train_Mask_RCNN` <br/>
 Install the requirements by entering (Train_Mask_RCNN) c:\Train_Mask_RCNN>`pip install -r requirements.txt` <br/>
 
 Install COCO API(Clone).<br/>
@@ -79,7 +79,7 @@ Or visit this repository for more details: https://github.com/philferriere/cocoa
 
 Now it's time when we will start using Tensorflow object detection API so go ahead and clone it by issuing the following command. <br/>
 (Train_Mask_RCNN) c:\Train_Mask_RCNN>`git clone https://github.com/tensorflow/models.git` <br/>
-Once you have cloned this repository, change your present working directory to models/research/ and add it to your python path. If you want to add it permanently then you will have to make the change in your .bashrc file or you could add it temporarily for current session using the following command: <br/>
+Once you have cloned this repository, change your present working directory to \models\research and add it to your python path. If you want to add it permanently then you will have to make the change in your .bashrc file or you could add it temporarily for current session using the following command: <br/>
 
 (Train_Mask_RCNN) c:\Train_Mask_RCNN>`set PYTHONPATH=C:\Train_Mask_RCNN\models;C:\Train_Mask_RCNN\models\research;C:\Train_Mask_RCNN\models\research\slim;`
 

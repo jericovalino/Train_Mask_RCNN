@@ -71,7 +71,7 @@ Or visit this repository for more details: https://github.com/philferriere/cocoa
 
 -----------------------------------------------------------------------------------------------------------------
 
-#### Generating Project Resources<br/>
+#### #Generating Project Resources<br/>
 
 #### 1. Setup Tensorflow Models Repository
 

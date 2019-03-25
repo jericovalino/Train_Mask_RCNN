@@ -12,19 +12,23 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
     will take almost forever to train a model.
 
 #### Preparing Your Computer<br/>
+  *  Download and Install Git from [here](https://git-scm.com/downloads)
   *  Install VS 2015 C++ Build tools<br/>
   *  Download and Install CUDA 9.0<br/>
    for windows 10 x64 machine, you can download the installer named "cuda_9.0.176_win10.exe" (1.4GB) [here](https://developer.nvidia.com/cuda-90-download-archive).<br/>
   *  Click [here](https://developer.nvidia.com/rdp/cudnn-archive) and click "Download cuDNN v7.4.1 (Nov 8, 2018), for CUDA 9.0".<br/>
   *  After downloading, decompress the .zip file to path "C:\tools".<br/>
-  *  Add the CUDA Toolkit and Library to Windows Environment Variable Path by clicking your way thru the following: 
+  *  Add the Git, CUDA Toolkit and Library to Windows Environment Variable Path by clicking your way thru the following: 
 > This PC>>Properties>>Advanced System Settings>>Environment Variables>>System Variables>>Path>>Edit 
 
     Then click "NEW" to add each:
+    C:\Program Files\Git\bin\git.exe
+    C:\Program Files\Git\cmd
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
     C:\tools\cuda\bin
+   
 
 #### 1. Install Python 3.6.8
 Download the Windows x86-64 executable installer from the [Python website](https://www.python.org/downloads/release/python-368/). <br/>

@@ -57,9 +57,9 @@ Using a CMD line, go to the C:\Train_Mask_RCNN directory by issuing `cd C:\Train
 Install the requirements by entering `(Train_Mask_RCNN) c:\Train_Mask_RCNN>pip install - requirements.txt` <br/>
 
 Install COCO API(Clone).<br/>
-Use pip to install the package:
-'(Train_Mask_RCNN) c:\Train_Mask_RCNN>pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI'
-Or visit this repository for more details: https://github.com/philferriere/cocoapi
+Use pip to install the package: <br/>
+`(Train_Mask_RCNN) c:\Train_Mask_RCNN>pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI` <br/>
+Or visit this repository for more details: https://github.com/philferriere/cocoapi <br/>
 Note: Make sure that you have "vs c++ 2015 build tool" already installed on your machine otherwise you'll get an error while cloning.
 
 #### 4. Setup Tensorflow Models Repository

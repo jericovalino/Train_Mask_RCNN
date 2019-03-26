@@ -129,3 +129,6 @@ Now here comes the fun part, We will now annotate images in JPEGImages folder us
    -imageName_color_mask.png <br/>
    -imageName_mask.png <br/>
    -imageName_watershed_mask.png <br/>
+You need to take all imageName_color_mask.png and place it in the dataset/Annotations folder and then rename it from IMAGENAME_color_mask.png to IMAGENAME.png <br/>
+IMAGENAME_color_mask.png look like this: <br/>
+![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/imagesAnnotated.PNG)

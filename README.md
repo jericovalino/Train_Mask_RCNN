@@ -100,7 +100,7 @@ In the CMD , change directories to \models\research. Copy and paste the followin
 This creates a name_pb2.py file from every name.proto file in the \object_detection\protos folder.
 Note: TensorFlow occassionally adds new .proto files to the \protos folder. If you get an error saying ImportError: cannot import name 'something_something_pb2' , you may need to update the protoc command to include the new .proto files.
 
-#### 3. Creating Folders
+#### 3. Creating Project Folders
 Create folders in path C:/ according to the following folder structure bellow:
    *  Tensorflow_API-Custom_Mask_RCNN <br/>
       *  pre_trained_models <br/>
@@ -112,4 +112,8 @@ Create folders in path C:/ according to the following folder structure bellow:
       *  IG 
       *  CP
 
+#### 4. Collecting and Gathering Data
+In this projext we will train a mask rcnn model to detect 3 things(pencil, stappler and scissosrs). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of 512 x 384(doesn't need to be exact) so your PC won't run out of memory). Then, move the 80% of the images to JPEGImages folder while 20% will go to  testImages folder.
+
+Here are some of the pictures I have collected:
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/images.PNG)

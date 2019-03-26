@@ -113,7 +113,7 @@ Create folders in path C:/ according to the following folder structure bellow:
       *  CP
 
 #### 4. Collecting and Gathering Data
-In this project we will train a mask rcnn model to detect 3 things(pencil, stappler and scissosrs). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of "512 x 384"(doesn't need to be exact) so your PC won't run out of memory). Then, move the 80% of the images to JPEGImages folder while other 20% will go to  testImages folder.
+In this project we will train a mask rcnn model to detect 3 things(pencil, stappler and scissors). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of "512 x 384"(doesn't need to be exact) so your PC won't run out of memory in training process). Then, move the 80% of the images to JPEGImages folder while other 20% will go to  testImages folder.
 
 Here are some of the pictures I have collected:
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/images.PNG)

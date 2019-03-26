@@ -54,7 +54,7 @@ FLAGS = flags.FLAGS
 
 # mask_pixel: dictionary containing class name and value for pixels belog to mask of each class
 # change as per your classes and labeling
-mask_pixel = {'speaker':76, 'cup':26}
+mask_pixel = {'pencil':194, 'stapler':26, 'scissors':76}
 
 def dict_to_tf_example(filename,
                        mask_path,

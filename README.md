@@ -111,3 +111,5 @@ Create folders in path C:/ according to the following folder structure bellow:
          *  testImages 
       *  IG 
       *  CP
+
+![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/images.PNG)

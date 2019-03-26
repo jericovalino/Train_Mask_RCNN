@@ -106,6 +106,7 @@ Create folders in path C:/ according to the following folder structure bellow: <
       *  pre_trained_models <br/>
       *  dataset
          *  Annotations
+            *  xmls
          *  JPEGImages
          *  testImages 
       *  IG 

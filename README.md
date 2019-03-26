@@ -105,3 +105,8 @@ Create folders in path C:/ according to the following folder structure bellow: <
    *  Tensorflow_API-Custom_Mask_RCNN <br/>
       *  pre_trained_models <br/>
       *  dataset
+         *Annotations
+         *JPEGImages
+         *testImages 
+      *  IG 
+      *  CP

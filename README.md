@@ -125,7 +125,7 @@ Here are some of the pictures I have collected:
 #### #Annotation and Training<br/>
 
 #### 1. Annotating Images
-Now here comes the fun part, We will now annotate images in JPEGImages folder using Pixel Annotation Tool. Watch [this](https://www.youtube.com/watch?v=tX-xcg5wY4U) youtube video on how to use this annotation tool(Annation process will take a while, so be patient). After the process, you will see 3 newly created files for every each of pictures in JPEGImages folder:
-  *imageName_color_mask.png
-  *imageName_mask.png
-  *imageName_watershed_mask.png
+Now here comes the fun part, We will now annotate images in JPEGImages folder using Pixel Annotation Tool. Watch [this](https://www.youtube.com/watch?v=tX-xcg5wY4U) youtube video on how to use this annotation tool(Annation process will take a while, so be patient). After the process, you will see 3 newly created files for every each of pictures in JPEGImages folder: <br/>
+  *imageName_color_mask.png <br/>
+  *imageName_mask.png <br/>
+  *imageName_watershed_mask.png <br/>

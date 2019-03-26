@@ -119,7 +119,7 @@ Here are some of the pictures I have collected:
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/images.PNG)
 
   <br/>
-
+  <br/>
 -----------------------------------------------------------------------------------------------------------------
 
 #### #Annotation and Training<br/>

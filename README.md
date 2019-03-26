@@ -120,7 +120,7 @@ Here are some of the pictures I have collected:
   
 ------------------------------------------------------------------------------------------------------------------
 
-#### #Annotation and Training<br/>
+#### #Annotation to Training<br/>
 
 #### 1. Annotating Images
 Now here comes the fun part, We will now annotate images in JPEGImages folder using Pixel Annotation Tool. Watch [this](https://www.youtube.com/watch?v=tX-xcg5wY4U) youtube video on how to use this annotation tool(Annation process will take a while, so be patient). After the process, you will see 3 newly created files for every each of pictures in JPEGImages folder: <br/>
@@ -130,3 +130,5 @@ Now here comes the fun part, We will now annotate images in JPEGImages folder us
 Take all imageName_color_mask.png and place it in the dataset/Annotations folder and then rename it from imageName_color_mask.png to imageName.png <br/>
 imageName_color_mask.png will look like this: <br/>
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/annotated_images.PNG)
+
+#### 2. Generating Tensorflow record format

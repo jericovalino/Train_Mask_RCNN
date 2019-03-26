@@ -113,7 +113,19 @@ Create folders in path C:/ according to the following folder structure bellow:
       *  CP
 
 #### 4. Collecting and Gathering Data
-In this project we will train a mask rcnn model to detect 3 things(pencil, stappler and scissors). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of "512 x 384"(doesn't need to be exact) so your PC won't run out of memory in training process). Then, move the 80% of the images to JPEGImages folder while other 20% will go to  testImages folder.
+In this project, we will train a mask rcnn model to detect 3 things(pencil, stappler and scissors). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of "512 x 384"(doesn't need to be exact) so your PC won't run out of memory in training process). Then, move the 80% of the images to JPEGImages folder while other 20% will go to  testImages folder.
 
 Here are some of the pictures I have collected:
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/images.PNG)
+
+  <br/>
+
+-----------------------------------------------------------------------------------------------------------------
+
+#### #Annotation and Training<br/>
+
+#### 1. Annotating Images
+Now here comes the fun part, We will now annotate images in JPEGImages folder using Pixel Annotation Tool. Watch [this](https://www.youtube.com/watch?v=tX-xcg5wY4U) youtube video on how to use this annotation tool(Annation process will take a while, so be patient). After the process, you will see 3 newly created files for every each of pictures in JPEGImages folder:
+  *imageName_color_mask.png
+  *imageName_mask.png
+  *imageName_watershed_mask.png

@@ -102,6 +102,6 @@ Note: TensorFlow occassionally adds new .proto files to the \protos folder. If y
 
 #### 3. Creating Folders
 Create folders in path C:/ according to the following folder structure bellow: <br/>
-*Tensorflow_API-Custom_Mask_RCNN <br/>
- *pre_trained_models <br/>
- *dataset
+   *  Tensorflow_API-Custom_Mask_RCNN <br/>
+      *  pre_trained_models <br/>
+      *  dataset

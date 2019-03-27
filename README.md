@@ -166,7 +166,7 @@ In my case, it's:
 
     python object_detection/legacy/train.py --train_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/CP --pipeline_config_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/mask_rcnn_inception_v2_coco.config
 
-If everything goes well, you shoud get something similar to this:
+If everything goes well, you should get something similar to this:
 
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/training.PNG)
 

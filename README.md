@@ -132,3 +132,4 @@ imageName_color_mask.png will look like this: <br/>
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/annotated_images.PNG)
 
 #### 2. Generating Tensorflow record format
+In order to use Tensorflow API, We need to feed data in Tensorflow record format. In this repo you can get the modified script of create_pet_tf_record.py. The modified scripts is named create_mask_rcnn_tf_record.py. All you need to do is to take this script and place it in the models/research/object_detection/dataset_tools.

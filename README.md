@@ -158,7 +158,5 @@ In my case it's:
     python object_detection/dataset_tools/create_mask_rcnn_tf_record.py --data_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset --annotations_dir=Annotations --image_dir=JPEGImages --output_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset/train.record --label_map_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset/label.pbtxt
 
 #### 2. Let's Train!
-
-<b>To be continued.</b>
-
+The first thing you need to do is to select and download mask_rcnn_inception_v2_coco from [Tensorflow detection model zoo Github page](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Once downloaded, extract all file to the pre_trained_models folder. Next you need to copy models/research/object_detection/sample/configs/mask_rcnn_inception_v2_coco.config and paste it in the Tensorflow_API-Custom_Mask_RCNN folder. You need to configure 5 paths in this file. Just open this file and search for PATH_TO_BE_CONFIGURED and replace it with the required path.I have added modified config file (along with PATH_TO_BE_CONFIGURED as comment above lines which has been modified) for same in this repo inside folder extra. Now you are all set to train your model, just run th following command with models/research as present working directory
 

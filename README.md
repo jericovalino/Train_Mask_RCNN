@@ -171,3 +171,13 @@ If everything goes well, you should get something similar to this:
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/training.PNG)
 
 Let it train until the loss become 0.2 or much better, even less. It will take hours for it to achieve that loss rate depends on how powerful your computer is. I let mine to train over night and then I stoped it in the morning by pressing "Ctrl+C". The longer you train, the smarter your model will become.
+
+#### 2. Generating Inference Graph
+We're almost there! Now the only thing that's left to do is to generate the inference graph from saved checkpoint. <br/>
+In the same directory, issue this following command: <br/>
+    
+    python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=<path_to_config_file> --trained_checkpoint_prefix=<path to saved checkpoint> --output_directory=<path_to_the_folder_for_saving_inference_graph>
+    
+ In my case, it's:
+ 
+    python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/CP/model.ckpt-152728 --output_directory=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/IG

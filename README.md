@@ -132,7 +132,7 @@ imageName_color_mask.png will look like this: <br/>
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/annotated_images.PNG)
 
 #### 2. Generating Tensorflow record format
-In order to use Tensorflow API, We need to feed data in Tensorflow record format. The script create_pet_tf_record.py given by tensorflow is modified to make it work in this project. You can get the modified script named create_mask_rcnn_tf_record.py in this repository. All you need to do is to take this script and place it in the models/research/object_detection/dataset_tools. <br/>
+In order to use Tensorflow API, We need to feed data in Tensorflow record format. The script create_pet_tf_record.py given by tensorflow is modified to make it work in this project. You can get the modified script named create_mask_rcnn_tf_record.py in this repository inside the extra folder. All you need to do is to take this script and place it in the models/research/object_detection/dataset_tools. <br/>
 
     Note: create_mask_rcnn_tf_record.py is modified in such a way that given a mask image, it should found bounding box around
     objects on it owns and hence you don't need to spend extra time annotating bounding boxes but it comes at a cost, if mask
@@ -144,3 +144,7 @@ If you have multiple objects of the same class in some images then use labelImg 
 Open LabelImg, then select JPEGImages directory by clicking on Open Dir and change the save directory to Annotations/xmls by clicking on Change Save Dir. Now all you need to do is to draw rectangles around the object you are planning to detect. You will need to click on Create RectBox and then you will get the cursor to label the objects. After drawing rectangles around objects, give the name for the label and save it so that Annotations will get saved as the .xml file in Annotations/xmls folder. <br/>
 
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/label_img.PNG)
+
+One additional thing you need to do is to edit the dictionary in the create_mask_rcnn_tf_record_multi.py script at line 57. You need to the give name of the classes as key and the value of pixel for the colour of mask you have chosen for respective class while masking the classobjects using pisxelAnnotationTool as value(you can check the pixel value of the color you used by running Check_pixel_values.ipynb in jupyter notebook...The pixel values of in my project are: "192" for pencil = yellow, "26" for stappler = blue, and "76" for scissors = red). After doing above, one last thing is still remaining before we get our Tensorflow record file. You need to create a file for label map, in this repo its label.pbtxt, with the dictionary of the label and the id of objects. Check label.pbtxt given in the repository to understand the format, its pretty simple (Note: name of the label should be same as class names you had given in the dictionary). Now it time to create record file. From models/research as present working directory run the following command to create Tensorflow record:
+
+

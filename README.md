@@ -167,4 +167,7 @@ In my case, it's:
     python object_detection/legacy/train.py --train_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/CP --pipeline_config_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/mask_rcnn_inception_v2_coco.config
 
 If everything goes well, you shoud get something similar to this:
+
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/training.PNG)
+
+Let it train until the loss become 0.2 or much better, even less. It will take hours for it to achieve that loss rate depends on how powerful your computer is. I let mine to train over night and then I stoped it in the morning by pressing "Ctrl+C". The longer you train, the smarter your model will become.

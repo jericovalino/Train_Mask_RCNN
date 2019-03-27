@@ -1,0 +1,12 @@
+item {
+   id: 1
+   name: 'pencil'
+}
+item {
+   id: 2
+   name: 'stapler'
+}
+item {
+   id: 3
+   name: 'scissors'
+}

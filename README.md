@@ -8,7 +8,7 @@ A complete instructions on how to train a Mask-RCNN Model on Tensorflow from scr
   -Nvidia GPU(with atleat 3.0 of computing power)</br>
   -Decent Webcam
     
-    Note: if your computer don't have a GPU, you can still be able to train and run on tensorflow but it
+    Note: if your computer doesn't have a dedicated GPU, you can still be able to train and run on tensorflow but it
     will take almost forever to train a model.
 
 

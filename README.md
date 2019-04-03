@@ -190,4 +190,6 @@ In the same directory, issue this following command: <br/>
 
 #### 1. Testing Using Python Jupyter Notebook
 Finally! You can now test your trained model. Now the last thing that you need to do to start th detection is to copy model/research/object_detection/object_detection_tutorial.ipynb and modify it to work with you inference graph. Paste it to Tensorflow_API-Custom_Mask_RCNN folder. You can get the modified file named "mask_rcnn_eval.ipynb" in extra folder. You just need to change the path, number of classes and the number of images you have given as test image.
+<br/>
+Make sure that you have your virtual environment still activated or otherwise it will give you an error. In CMD go to /Tensorflow_API-Custom_Mask_RCNN directory. Type `jupyter notebook` then hit enter. A local webpage will open on your brower, find anf click "mask_rcnn_eval.ipynb".
 

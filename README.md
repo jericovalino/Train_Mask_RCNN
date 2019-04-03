@@ -157,7 +157,7 @@ In my case, it's:
 
     python object_detection/dataset_tools/create_mask_rcnn_tf_record.py --data_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset --annotations_dir=Annotations --image_dir=JPEGImages --output_dir=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset/train.record --label_map_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/dataset/label.pbtxt
 
-#### 2. Let's Train!
+#### 3. Let's Train!
 The first thing you need to do is to select and download mask_rcnn_inception_v2_coco from [Tensorflow detection model zoo Github page](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Once downloaded, extract all file to the pre_trained_models folder. Next you need to copy models/research/object_detection/sample/configs/mask_rcnn_inception_v2_coco.config and paste it in the Tensorflow_API-Custom_Mask_RCNN folder. You need to configure 5 paths in this file. Just open this file and search for PATH_TO_BE_CONFIGURED and replace it with the required path.I have added modified config file (along with PATH_TO_BE_CONFIGURED as comment above lines which has been modified) for same in this repo inside folder extra. Now you are all set to train your model, just run th following command with models/research as present working directory: <br/>
 
     python object_detection/legacy/train.py --train_dir=<path_to_the folder_for_saving_checkpoints> --pipeline_config_path=<path_to_config_file>
@@ -172,7 +172,7 @@ If everything goes well, you should get something similar to this:
 
 Let it train until the loss become 0.2 or much better, even less. It will take hours for it to achieve that loss rate depends on how powerful your computer is. I let mine to train over night and then I stoped it in the morning by pressing "Ctrl+C". The longer you train, the smarter your model will become.
 
-#### 2. Generating Inference Graph
+#### 4. Generating Inference Graph
 We're almost there! Now the only thing that's left to do is to generate the inference graph from saved checkpoint. <br/>
 In the same directory, issue this following command: <br/>
     
@@ -181,3 +181,11 @@ In the same directory, issue this following command: <br/>
  In my case, it's:
  
     python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/CP/model.ckpt-152728 --output_directory=C:/Train_Mask_RCNN/Tensorflow_API-Custom_Mask_RCNN/IG
+  <br/>
+  <br/>
+  
+------------------------------------------------------------------------------------------------------------------
+
+#### #Test Your Model!<br/>
+
+#### 1. Testing Using Python Jupyter Notebook

@@ -193,6 +193,6 @@ You can now test your trained model. Now the last thing that you need to do to s
 
 Make sure that you have your virtual environment still activated or otherwise it will give you an error. In CMD go to /Tensorflow_API-Custom_Mask_RCNN directory. Type `jupyter notebook` then hit enter. A local webpage will open on your brower, find and click "mask_rcnn_eval.ipynb". <br/>
 
-Now, under the variables cell. Edit PATH_TO_FROZEN_GRAPH, PATH_TO_LABELS, and the NUM_CLASSES. In the detection cell edit PATH_TO_TEST_IMAGES_DIR and TEST_IMAGE_PATHS to work with your own path. Click the Import cell then click the run button. Once the cell is done running its block of code, you will see * will change 1 in a few seconds. Click the run button until the last cell. Finally, after a few seconds you will see a test image with mask on it!. It will look something like this:
+Now, under the variables cell. Edit PATH_TO_FROZEN_GRAPH, PATH_TO_LABELS, and the NUM_CLASSES. In the detection cell edit PATH_TO_TEST_IMAGES_DIR and TEST_IMAGE_PATHS to work with your own path. Click the first cell then click the run button. Once the cell is done running its block of code, you will see * will change into 1 in a few seconds. Click the run button until the last cell. Finally, after a few seconds you will see a test image with mask on it!. It will look something like this:
 
 ![alt text](https://raw.githubusercontent.com/jericovalino/Train_Mask_RCNN/master/extra/jupyter.PNG)

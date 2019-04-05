@@ -134,12 +134,9 @@ imageName_color_mask.png will look like this: <br/>
 #### 2. Generating Tensorflow record format
 In order to use Tensorflow API, We need to feed data in Tensorflow record format. The script create_pet_tf_record.py given by tensorflow is modified to make it work in this project. You can get the modified script named create_mask_rcnn_tf_record.py in this repository inside the extra folder. All you need to do is to take this script and place it in the models/research/object_detection/dataset_tools. <br/>
 
-    Note: create_mask_rcnn_tf_record.py is modified in such a way that given a mask image, it should found bounding box around
-    objects on it owns and hence you don't need to spend extra time annotating bounding boxes but it comes at a cost, if mask
-    image has multiple objects of same class then it will not be able to find bounding box for each object of the same class
-    rather it will take a bounding box encompassing all objects of that class.
-    
-<b>Note.</b> If you have multiple objects of the same class in some images then use labelImg to generate xml files with bounding boxes and then place all the xml file generated from labelImg under Annotations/xmls folder. once you have bounding box annotation in xml files then use create_mask_rcnn_tf_record_multi.py instead of create_mask_rcnn_tf_record.py to convert the data to tensorflow record format. <br/> <br/>
+<b>Note</b>: create_mask_rcnn_tf_record.py is modified in such a way that given a mask image, it should found bounding box around objects on it owns and hence you don't need to spend extra time annotating bounding boxes but it comes at a cost, if mask
+image has multiple objects of same class then it will not be able to find bounding box for each object of the same class
+rather it will take a bounding box encompassing all objects of that class.If you have multiple objects of the same class in     some images then use labelImg to generate xml files with bounding boxes and then place all the xml file generated from labelImg under Annotations/xmls folder. once you have bounding box annotation in xml files then use create_mask_rcnn_tf_record_multi.py instead of create_mask_rcnn_tf_record.py to convert the data to tensorflow record format. <br/> <br/>
 
 Open LabelImg, then select JPEGImages directory by clicking on Open Dir and change the save directory to Annotations/xmls by clicking on Change Save Dir. Now all you need to do is to draw rectangles around the object you are planning to detect. You will need to click on Create RectBox and then you will get the cursor to label the objects. After drawing rectangles around objects, give the name for the label and save it so that Annotations will get saved as the .xml file in Annotations/xmls folder. <br/>
 

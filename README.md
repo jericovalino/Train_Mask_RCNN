@@ -99,16 +99,16 @@ This creates a name_pb2.py file from every name.proto file in the \object_detect
 Note: TensorFlow occassionally adds new .proto files to the \protos folder. If you get an error saying ImportError: cannot import name 'something_something_pb2' , you may need to update the protoc command to include the new .proto files.
 
 #### 3. Creating Project Folders
-Create folders in path C:/ according to the following folder structure bellow:
-   *  Tensorflow_API-Custom_Mask_RCNN <br/>
-      *  pre_trained_models <br/>
-      *  dataset
-         *  Annotations
-            *  xmls
-         *  JPEGImages
-         *  testImages 
-      *  IG 
-      *  CP
+Create folders in path C:/ according to the following folder structure bellow: <br/>
+[]  Tensorflow_API-Custom_Mask_RCNN <br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;  []  pre_trained_models <br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;  []  dataset <br/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  []  Annotations <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  []  xmls <br/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  []  JPEGImages <br/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  []  testImages <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;  []  IG <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;  []  CP <br/>
 
 #### 4. Collecting and Gathering Data
 In this project, we will train a mask rcnn model to detect 3 things(pencil, stappler and scissors). I took a lot of pictures of them in ramdom distance, ligthings, background and angles. All in all I collected 118 pictures(resize images to the size of "512 x 384"(doesn't need to be exact) so your PC won't run out of memory in training process). Then, move the 80% of the images to JPEGImages folder while other 20% will go to  testImages folder.

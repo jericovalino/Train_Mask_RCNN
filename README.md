@@ -99,7 +99,7 @@ This creates a name_pb2.py file from every name.proto file in the \object_detect
 Note: TensorFlow occassionally adds new .proto files to the \protos folder. If you get an error saying ImportError: cannot import name 'something_something_pb2' , you may need to update the protoc command to include the new .proto files.
 
 #### 3. Creating Project Folders
-Create folders in path C:/ according to the following folder structure bellow: <br/>
+Create folders in C:/Train_Mask_RCNN according to the following folder structure bellow: <br/>
 []  Tensorflow_API-Custom_Mask_RCNN <br/>
    &nbsp;&nbsp;&nbsp;&nbsp;  []  pre_trained_models <br/>
    &nbsp;&nbsp;&nbsp;&nbsp;  []  dataset <br/>

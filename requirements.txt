@@ -7,3 +7,4 @@ scikit-image
 tensorflow-gpu==1.12.0
 keras
 jupyter
+opencv-python==4.0.0.21

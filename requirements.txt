@@ -1,5 +1,4 @@
 absl-py==0.7.1
-altgraph==0.16.1
 astor==0.7.1
 attrs==19.1.0
 backcall==0.1.0
@@ -13,13 +12,11 @@ dask==1.1.4
 decorator==4.4.0
 defusedxml==0.5.0
 entrypoints==0.3
-future==0.17.1
 gast==0.2.2
 grpcio==1.19.0
 h5py==2.9.0
 imageio==2.5.0
 imgaug==0.2.8
-imutils==0.5.2
 ipykernel==5.1.0
 ipython==7.3.0
 ipython-genutils==0.2.0
@@ -35,8 +32,7 @@ Keras==2.2.4
 Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
 kiwisolver==1.0.1
-lxml==4.3.3
-macholib==1.11
+lxml==4.3.2
 Markdown==3.0.1
 MarkupSafe==1.1.1
 matplotlib==3.0.3
@@ -46,10 +42,10 @@ nbformat==4.4.0
 networkx==2.2
 notebook==5.7.6
 numpy==1.16.2
+object-detection==0.1
 opencv-python==4.0.0.21
 pandocfilters==1.4.2
 parso==0.3.4
-pefile==2019.4.18
 pickleshare==0.7.5
 Pillow==5.4.1
 prometheus-client==0.6.0
@@ -57,12 +53,10 @@ prompt-toolkit==2.0.9
 protobuf==3.7.0
 pycocotools==2.0
 Pygments==2.3.1
-PyInstaller==3.4
 pyparsing==2.3.1
 pyrsistent==0.14.11
 python-dateutil==2.8.0
 PyWavelets==1.0.2
-pywin32-ctypes==0.2.0
 pywinpty==0.5.5
 PyYAML==5.1
 pyzmq==18.0.1
